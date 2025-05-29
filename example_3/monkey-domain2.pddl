@@ -72,7 +72,7 @@
 
 
    (:action push-box
-             :parameters (?x ?y)
+             :parameters (?x ?y) 
              :precondition (and 
                              (at box ?y)
                              (at monkey ?y)
